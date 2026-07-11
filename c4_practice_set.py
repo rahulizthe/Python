@@ -43,7 +43,7 @@ marks.sort()
 tuple1 = ("apple",23,5.6,"hello")
 tuple1[2] =10 #not possible.
 
-#soltuion 4
+#solution 4
 #program to sum all the item in a list.
 l = [23,12,3,43,34,7]
 #appraoch 1
@@ -52,4 +52,9 @@ print(sum1)
 #appraoch 2
 print(sum(l))
 
+#solution 5
+#count the numbers of zeroes in tuple.
+t =(0,3,4,5,0,10,0,2,0)
+n = t.count(0)
+print(n)
 
